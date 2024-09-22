@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # SentenceTransformerモデルのロード（グローバルに一度だけロード）
-model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+model = SentenceTransformer('stsb-xlm-r-multilingual')
 
 # 環境変数からAPIキーを取得
 # API_KEY = os.getenv('API_KEY')
