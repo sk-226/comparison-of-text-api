@@ -32,6 +32,9 @@ def similarity():
 
     # 類似度の計算
     similarity_score = word_embedding_similarity(sentence_correct, sentence_proposed)
+    # スケーリングの例
+    similarity_score = (similarity_score + 1) / 2
+
 
     return jsonify({'similarity_score': similarity_score})
 
