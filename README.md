@@ -1,5 +1,8 @@
 # comparison-of-text-api
 
+Google Cloud Runでデプロイ
+
+メモリ: 16GBくらいあった方が良い
 
 # 参考文献
 
